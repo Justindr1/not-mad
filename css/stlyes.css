@@ -1,0 +1,61 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    background: linear-gradient(#f69d3c, #3f87a6);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.div1{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 15rem;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .div2{
+animation: fadeInOut;
+animation-duration: 4s;
+padding-bottom: 500px;
+  }
+
+  @keyframes fadeInOut {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
